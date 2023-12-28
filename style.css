@@ -36,14 +36,14 @@ header {
 }
 
 .navigator a {
+    margin-top: auto;
     text-decoration: none;
     color: gray;
     margin-left: 20px;
     margin-right: 20px;
     font-weight: 400;
     font-size: 18px;
-
-    white-space: nowrap;
+    height: fit-content;
 }
 
 #home_a {
@@ -52,11 +52,14 @@ header {
 }
 
 .main_header {
-    margin-top: 20px;
+    width: 100%;
+    margin-top: 80px; 
+    display: flex;
 }
 
 .header_text {
-    max-width: 445;
+    max-width: 445px;
+    margin-top: 106px;
 }
 
 .header_text h2 {
@@ -65,16 +68,28 @@ header {
     font-size: 48px;
 }
 
+
 #header_p {
     font-weight: 300;
     font-size: 21px;
     color: rgba(125, 121, 135, 1);
+    margin-top: 25px;
+    margin-bottom: 45px;
 }
 
 #consult_button {
-    border-color: rgba(69, 143, 246, 1);
-    padding: 10px 20px;
+    border: 1px solid rgba(69, 143, 246, 1);
     border-radius: 55px;
+    padding: 10px 20px;
+    width: 200px;
+    height: 56px;
     color: white;
     background-color: rgba(69, 143, 246, 1);
+}
+
+#top_img {
+    margin-bottom: 50px;
+    position: relative;
+    flex-direction: row;
+    margin-left: auto;
 }
