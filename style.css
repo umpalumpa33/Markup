@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 940px;
+    width: 90%;
+}
+
+body {
+    font-family: Muli;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#trafalgar_logo {
+    margin-top: 56px;
+    flex: 0 0 auto;
+}
+
+.navigator {
+    position: relative;
+    margin-top: 20px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.navigator a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 18px;
+
+    white-space: nowrap;
+}
+
+#home_a {
+    color: #1F1534;
+    font-weight: 700;
+}
+
+.main_header {
+    margin-top: 20px;
+}
+
+.header_text {
+    max-width: 445;
+}
+
+.header_text h2 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#header_p {
+    font-weight: 300;
+    font-size: 21px;
+    color: rgba(125, 121, 135, 1);
+}
+
+#consult_button {
+    border-color: rgba(69, 143, 246, 1);
+    padding: 10px 20px;
+    border-radius: 55px;
+    color: white;
+    background-color: rgba(69, 143, 246, 1);
+}
