@@ -127,3 +127,34 @@ header {
     color: rgba(125, 121, 135, 1);
     font-size: 18px;
 }
+
+.grids {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.search_doc, .online_pharmacy, .consultation, .detailed_info, .emergency, .tracking {
+    border: 1px solid white; /* White border */
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding: 40px 20px;
+    height: 354px;
+}
+
+.search_doc p, .online_pharmacy p, .consultation p, .detailed_info p, .emergency p, .tracking p {
+    margin-top: 15px;
+    color: rgba(125, 121, 135, 1);
+    max-width: 266px;
+}
+
+.search_doc h1, .online_pharmacy h1, .consultation h1, .detailed_info h1, .emergency h1, .tracking h1 {
+    margin-top: 15px;
+}
+
+.search_doc img, .online_pharmacy img, .consultation img, .detailed_info img, .emergency img, .tracking img {
+    height: 95px;
+}
