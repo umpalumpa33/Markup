@@ -146,15 +146,37 @@ header {
 }
 
 .search_doc p, .online_pharmacy p, .consultation p, .detailed_info p, .emergency p, .tracking p {
-    margin-top: 15px;
     color: rgba(125, 121, 135, 1);
     max-width: 266px;
+    line-height: 28px;
 }
 
 .search_doc h1, .online_pharmacy h1, .consultation h1, .detailed_info h1, .emergency h1, .tracking h1 {
-    margin-top: 15px;
+    margin-top: 21px;
+    height: 56px;
 }
 
-.search_doc img, .online_pharmacy img, .consultation img, .detailed_info img, .emergency img, .tracking img {
-    height: 95px;
+
+#learn_more_btn {
+    justify-content: center;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    border-radius: 55px;
+    width: 200px;
+    background-color: transparent;
+}
+
+#learn_more_button_txt {
+    color: rgba(69, 143, 246, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.learn_more_button_div {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.emergency h1 {
+    margin-top: 40px;
 }
