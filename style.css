@@ -5,6 +5,7 @@
 }
 
 .content-wrapper {
+    vertical-align: middle;
     margin: 0 auto;
     max-width: 1200px;
     min-width: 940px;
@@ -81,10 +82,16 @@ header {
     border: 1px solid rgba(69, 143, 246, 1);
     border-radius: 55px;
     padding: 10px 20px;
-    width: 200px;
+    overflow: hidden;
+    width: calc(100% - 245px);
     height: 56px;
     color: white;
     background-color: rgba(69, 143, 246, 1);
+}
+
+#button_txt {
+    font-weight: 700;
+    font-size: 18px;
 }
 
 #top_img {
@@ -92,4 +99,31 @@ header {
     position: relative;
     flex-direction: row;
     margin-left: auto;
+}
+
+.top_text {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 26px;
+}
+
+.top_text hr {
+    border: 1px solid black;
+    width: calc(100% - 896px);
+    margin: auto;
+}
+
+.top_text h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+#services_main_txt {
+    text-align: center;
+    line-height: 30px;
+    font-weight: 300;
+    width: 952px;
+    color: rgba(125, 121, 135, 1);
+    font-size: 18px;
 }
