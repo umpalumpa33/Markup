@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: Muli;
+    font-family: Mulish;
 }
 
 header {
@@ -157,7 +157,7 @@ header {
 }
 
 
-#learn_more_btn {
+#learn_more_btn_1, #learn_more_btn_2, #download_btn {
     justify-content: center;
     border: 1.4px solid rgba(69, 143, 246, 1);
     border-radius: 55px;
@@ -165,11 +165,11 @@ header {
     background-color: transparent;
 }
 
-#learn_more_button_txt {
+#learn_more_button_txt_1, #learn_more_button_txt_2, #download_btn_text {
     color: rgba(69, 143, 246, 1);
     font-size: 18px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 54px;
 }
 
 .learn_more_button_div {
@@ -180,3 +180,102 @@ header {
 .emergency h1 {
     margin-top: 40px;
 }
+
+.additional_info {
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_side {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_side_txt {
+    max-width: 500px;
+    justify-content: left;
+    text-align: left;
+    margin-left: 137px;
+    margin-top: 50px;
+}
+
+.top_side_txt h1 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    margin-bottom: 25px;
+}
+
+.top_side_txt hr {
+    border: 1px solid black;
+    width: 56px;
+    margin-bottom: 30px;
+}
+
+.top_side_txt p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(125, 121, 135, 1);
+    margin-bottom: 35px;
+}
+
+.bottom_side {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#img_2 {
+    float: right;
+    margin-right: auto;
+    order: 2;
+    margin-left: 130px;
+}
+
+.bot_side_txt {
+    max-width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.bot_side_txt h1 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    max-width: 255px;
+    margin-bottom: 25px;
+}
+
+.bot_side_txt hr {
+    border: 1px solid black;
+    width: 56px;
+    margin-bottom: 30px;
+}
+
+.bot_side_txt p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 420px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(125, 121, 135, 1);
+}
+
+#download_btn{
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
