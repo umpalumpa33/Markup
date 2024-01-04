@@ -544,6 +544,12 @@ footer {
     flex-direction: row;
 }
 
+.bot_nav {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 250px 100px 100px;
+}
+
 #footer_trafalgar{
     font-family: Muli;
     font-size: 24px;
@@ -564,9 +570,22 @@ footer {
 }
 
 .company, .region, .help {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    max-width: 200px;
 }
+
+.company {
+    margin-right: 100px;
+}
+
+.region {
+    margin: 0px 100px;
+}
+
+.help {
+    margin-left: 100px;
+}
+
 
 .company a, .region a, .help a {
     text-decoration: none;
@@ -577,6 +596,7 @@ footer {
     letter-spacing: 0em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
+    width: 120px;
 }
 
 .company h1, .region h1, .help h1{
