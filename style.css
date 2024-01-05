@@ -547,7 +547,7 @@ footer {
 .bot_nav {
     display: flex;
     flex-direction: row;
-    margin: 100px 250px 100px 100px;
+    margin: 100px 150px 0px ;
 }
 
 #footer_trafalgar{
@@ -578,12 +578,21 @@ footer {
     margin-right: 100px;
 }
 
+#footer_trafalgar {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
 .region {
     margin: 0px 100px;
 }
 
 .help {
     margin-left: 100px;
+}
+
+#left_footer_p {
+    margin: 20px 0px;
 }
 
 
@@ -610,12 +619,3 @@ footer {
 }
 
   
-.text_overlay {
-    position: absolute;
-    top: 50%; /* Adjust these values for positioning */
-    left: 50%; /* to center the text */
-    transform: translate(-50%, -50%);
-    color: black; /* Set text color */
-    font-size: 24px; /* Set font size */
-    font-weight: bold; /* Set font weight */
-  }
