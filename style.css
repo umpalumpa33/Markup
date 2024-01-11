@@ -9,7 +9,6 @@
     margin: 0 auto;
     max-width: 1200px;
     min-width: 940px;
-    /* Add position relative to allow absolute positioning of the footer */
     position: relative;
 }
 
